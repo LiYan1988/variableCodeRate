@@ -1,0 +1,10 @@
+function [pi_approx, N_hits] = pi_calc_parfor(N, N_block)
+
+N_hits = 0;
+
+parfor iter = 1:N
+    coord = rand(N_block, 2);
+    r2 = sum(coord .* coord, 2);
+    N_hits = N_hits + sum(r2 < 1.0);
+end
+pi_approx = 4.0 * N_hits/(N*N_block);

@@ -1,0 +1,29 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016a (9.0.0.370719) 64-bit (glnxa64)
+                               April 13, 2016
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Starting parallel pool (parpool) using the 'local' profile ... connected to 16 workers.
+
+ans = 
+
+ Pool with properties: 
+
+            Connected: true
+           NumWorkers: 16
+              Cluster: local
+        AttachedFiles: {}
+          IdleTimeout: 30 minute(s) (30 minutes remaining)
+          SpmdEnabled: true
+
+Parallel pool using the 'local' profile is shutting down.
+Saving data to: 
+PI_PARFOR_pid7188_glenn37-3.int.private_2016-09-17_14:25:43.mat

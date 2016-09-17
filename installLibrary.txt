@@ -1,0 +1,2 @@
+1) put the header files in a location which your compiler is aware of (typically IDE allows to set so-called include directories, otherwise you specify a flag like "-I<path-to-headers>" when invoking the compiler)
+2) put the dll files in a location which your linker is aware of (surely your IDE will allow that, otherwise you speficy a flag like "-L<path-to-libraries> -l<name-of-libraries>"
