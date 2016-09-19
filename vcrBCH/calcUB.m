@@ -4,6 +4,7 @@ function ub = calcUB(n, m, p)
 % probability.
 % Ref: B. Sklar, Digital communications: fundamentals and applications. 
 % Eq.6-46
+% http://math.stackexchange.com/questions/132625/n-choose-k-leq-left-fracen-k-rightk
 x = sym(p);
 e = vpa(exp(1));
 q = e*n*x/(m*(1-x));
